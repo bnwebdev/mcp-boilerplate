@@ -1,6 +1,6 @@
 # START
 
-Clone this repo and replace mcp-boilerplate, APP_DESCRIPTION, USERNAME, LICENSE with needed values. Remove .git and initialize your project.
+Clone this repo and replace mcp-boilerplate, INTEGRATION, APP_DESCRIPTION, USERNAME, LICENSE with needed values. Remove .git and initialize your project.
 
 - [x] Create boilerplate pkg
 - [ ] Simplify start with npx
