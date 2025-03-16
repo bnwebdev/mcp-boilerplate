@@ -1,0 +1,41 @@
+{
+  "name": "mcp-boilerplate",
+  "version": "1.0.3",
+  "description": "MCP server implementation for APP_DESCRIPTION",
+  "main": "dist/index.js",
+  "bin": {
+    "mcp-boilerplate": "./dist/index.js"
+  },
+  "author": "Mykyta Bereziuk <nikitber@hotmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bnwebdev/mcp-boilerplate"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ai",
+    "assistant"
+  ],
+  "type": "module",
+  "scripts": {
+    "build": "node build.js",
+    "prepare": "yarn build",
+    "start": "node dist/index.js",
+    "dev": "tsx watch ./src/index.ts",
+    "inspector": "npx @modelcontextprotocol/inspector dist/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.7.0",
+    "dotenv": "^16.4.7",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "esbuild": "^0.25.1",
+    "esbuild-register": "^3.6.0",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}
